@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-service
+  description: A demo microservice for Backstage demo
+  annotations:
+    github.com/project-slug: krdevops09/bckstgdemo
+spec:
+  type: service
+  owner: dev-team
+  lifecycle: experimental
