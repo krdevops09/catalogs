@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: catalogs
+  name: order-service
+  description: Takes care of customer orders and payments
   annotations:
     github.com/project-slug: krdevops09/catalogs
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: production
   owner: guests
